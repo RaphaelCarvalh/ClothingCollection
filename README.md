@@ -21,12 +21,18 @@ A aplicação permite ao usuário:
 - :pencil2: Editar modelos existentes
 - :x: Excluir modelos
 
-## Tecnologias utilizadas
+## Principais Tecnologias utilizadas
 
 - [Angular](https://angular.io/)
 - [Bootstrap](https://getbootstrap.com/)
 - [.NET](https://dotnet.microsoft.com/pt-br/)
 
+## Outras Ferramentas
+- Linguagem de Programação: C#
+- Framework: ASP.NET Core
+- Banco de Dados: SQL Server
+- ORM: Entity Framework Core
+- Ferramenta de Documentação: Swagger
 
 ## Inicialização
 
