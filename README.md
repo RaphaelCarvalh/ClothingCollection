@@ -25,6 +25,8 @@ A aplicação permite ao usuário:
 
 - [Angular](https://angular.io/)
 - [Bootstrap](https://getbootstrap.com/)
+- [.NET](https://dotnet.microsoft.com/pt-br/)
+
 
 ## Inicialização
 
@@ -40,36 +42,6 @@ bash Copy code git clone https://github.com/seu-usuario/ClothingCollection.git A
 3. No terminal use o npm install.
 
 🎮 Utilização Execute o servidor de desenvolvimento.
-
-4. Após terminar o passo 3, garanta estar na pasta raiz do projeto.
-
-5. Rode o comando ng serve, aguarde carregar...🕡		
-
-6. Acesse a aplicação em seu navegador no endereço http://localhost:4200.
-
-
-bash Copy code ng serve Acesse a aplicação em seu navegador no endereço http://localhost:4200.
-
-<h3>Ahhh... Não esqueça de partir o Json, afinal nossos dados vem de lá! Por enquanto😎!!</h3>
-
-7. Garanta estar na pasta raiz do projeto.
-
-8. No terminal use o comando  json-server --watch db.json
-
-9. Voce deverá ver esse item   \ {^_^} / hi!
-
-10. Para checar as rotas fora da aplicação utilize as toras passadas logo a seguir da apresentação
-
-11.  Resources
-      http://localhost:3000/user<br>
-      http://localhost:3000/modelos<br>
-      http://localhost:3000/colecoes<br>
-      http://localhost:3000/email<br>
-
-    Home
-      http://localhost:3000
-
-12. Welcome!  \ {^_^} /
 
 
 <h3>📷A seguir, algumas demonstrações das páginas do projeto ClothingCollection:</h3>
