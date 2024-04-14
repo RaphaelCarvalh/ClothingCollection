@@ -1,0 +1,15 @@
+@import "../../../scss/variables";
+
+  mat-toolbar {
+    background-color: $color-label;
+
+    & .example-spacer {
+      flex: 1 1 auto;
+
+    }
+    & .botaoPerson{
+      background-size: cover;
+      background-position: center;
+      background-color: rgb(175, 173, 173);
+    }
+  }

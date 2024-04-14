@@ -1,0 +1,61 @@
+@import "../../../../scss/variables.scss";
+
+.container {
+  width: 90%;
+  height: 90%;
+  margin: 1rem auto;
+  border-radius: .6rem;
+  background-color: #fff;
+}
+
+.headerPage {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 1rem auto;
+
+  & .custom-heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+  }
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 3px;
+  margin-right: 67%;
+}
+
+.card {
+  width: 31%;
+  display: inline-flex;
+  margin: 15px 15px 15px 15px;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.card:hover {
+  background: $color-background-td-hover;
+  color: $color-td-hover;
+}
+
+.cardTitle {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.cardText {
+  margin: 10px 5px;
+}
+
+button {
+  width: 15%;
+  background-color: $color-button-colecao;
+}
+
+td:hover {
+  background: $color-background-td-hover;
+  color: $color-td-hover;
+}

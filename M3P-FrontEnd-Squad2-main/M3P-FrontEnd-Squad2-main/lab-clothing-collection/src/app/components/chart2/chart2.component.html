@@ -1,0 +1,5 @@
+<mat-card class="budgets">
+        <mat-card-title class="text">Gráfico de evolução dos custos no tempo</mat-card-title>
+        <canvas baseChart class="chart" [datasets]="lineChartData" [labels]="lineChartLabels"
+                [options]="lineChartOptions" [type]="lineChartType"></canvas>
+</mat-card>

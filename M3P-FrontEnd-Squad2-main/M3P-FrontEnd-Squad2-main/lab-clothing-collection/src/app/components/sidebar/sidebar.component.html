@@ -1,0 +1,27 @@
+<mat-nav-list class="nav-list">
+  <div class="svg">
+    <img src="../../../assets/Group-76.png" alt="logomarca">
+  </div>
+  <div class="list">
+    <a mat-list-item routerLink="dashboard">
+      <i class="material-icons" [ngStyle]="{'color': company.defaultTheme === 'Light' ? company.lightModeSecondary : company.darkModeSecondary}">dashboard</i>
+      <label for="" [ngStyle]="{'color': company.defaultTheme === 'Light' ? company.lightModeSecondary : company.darkModeSecondary}">Dashboard</label>
+    </a>
+    <a mat-list-item routerLink="collection">
+      <i class="material-icons" [ngStyle]="{'color': company.defaultTheme === 'Light' ? company.lightModeSecondary : company.darkModeSecondary}">perm_media</i>
+      <label [ngStyle]="{'color': company.defaultTheme === 'Light' ? company.lightModeSecondary : company.darkModeSecondary}">Coleções</label>
+    </a>
+    <a mat-list-item routerLink="model">
+      <i class="material-icons" [ngStyle]="{'color': company.defaultTheme === 'Light' ? company.lightModeSecondary : company.darkModeSecondary}">category</i>
+      <label [ngStyle]="{'color': company.defaultTheme === 'Light' ? company.lightModeSecondary : company.darkModeSecondary}">Modelos</label>
+    </a>
+    <a mat-list-item routerLink="getHelp">
+      <i class="material-icons" [ngStyle]="{'color': company.defaultTheme === 'Light' ? company.lightModeSecondary : company.darkModeSecondary}">help</i>
+      <label [ngStyle]="{'color': company.defaultTheme === 'Light' ? company.lightModeSecondary : company.darkModeSecondary}">Obter Ajuda</label>
+    </a>
+    <a mat-list-item routerLink="comments">
+      <i class="material-icons" [ngStyle]="{'color': company.defaultTheme === 'Light' ? company.lightModeSecondary : company.darkModeSecondary}">mode_comment</i>
+      <label [ngStyle]="{'color': company.defaultTheme === 'Light' ? company.lightModeSecondary : company.darkModeSecondary}">Comentários</label>
+    </a>
+  </div>
+</mat-nav-list>

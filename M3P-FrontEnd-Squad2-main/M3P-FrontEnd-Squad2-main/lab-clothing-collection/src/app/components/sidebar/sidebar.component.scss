@@ -1,0 +1,29 @@
+@import "../../../scss/variables";
+
+.nav-list{
+
+  & .svg {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  & .list {
+    margin-top: 80px;
+
+    & a {
+    color: $color-text;
+    width: 100%;
+    }
+
+    & i {
+      color: $color-text;
+      margin-right: 0.6rem;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+    & label {
+      font-size: 0.8rem;
+      margin-left: 15px;
+    }
+  }
+}

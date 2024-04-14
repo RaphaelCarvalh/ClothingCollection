@@ -1,0 +1,62 @@
+@import "../../../scss/variables";
+
+.custom-heading {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33.89px;
+  margin: 30px 0 0 55px;
+}
+
+.container {
+  width: 90%;
+  margin: 2% auto;
+  padding: 1rem 1rem;
+  border-radius: .6rem;
+  background-color: $color-background-collection-create;
+  display: flex;
+  justify-content: center;
+
+  & form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    & .halfWidth {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 1rem;
+    }
+
+    & .inputPassword{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
+
+.bts {
+  justify-content: flex-end;
+  text-align: right;
+  margin-top: 1.5rem;
+
+  & button {
+    margin-left: 1rem;
+    width: 30%;
+  }
+}
+
+.password-alert {
+    margin-top: 8px;
+    color: red;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    font-family: inter;
+}

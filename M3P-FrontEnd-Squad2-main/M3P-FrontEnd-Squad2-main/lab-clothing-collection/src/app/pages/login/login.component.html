@@ -1,0 +1,33 @@
+<div class="container-login-reset-cadastro">
+  <form [formGroup]="loginForm" class="form mat-elevation-z8">
+    <img src="../../../assets/Fill-51.svg" alt="logo">
+    <h1>Sign In</h1>
+    <h4>Insira suas credenciais para acessar sua conta</h4>
+    <mat-form-field class="full-width" appearance="fill">
+      <mat-label>Informe seu e-mail</mat-label>
+      <input type="email" formControlName="email" id="email" matInput>
+      <mat-error *ngIf="loginForm.controls['email'].hasError('required')">
+        O campo e-mail é obrigatório.
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field class="full-width" appearance="fill">
+      <mat-label>Informe sua senha</mat-label>
+      <input type="password" formControlName="password" id="password" matInput>
+      <mat-error *ngIf="loginForm.controls['password'].hasError('required')">
+        O campo senha é obrigatório.
+      </mat-error>
+    </mat-form-field>
+    <button type="button" title="button" class="full-width mat-elevation-z4" (click)="onSubmit(loginForm.value)">ENTRAR</button>
+    <div *ngIf="exibirAviso" class="text-danger">
+      Por favor, preencha todos os campos.
+  </div>
+  </form>
+  <div class="createOrRedefine">
+    <p>Esqueceu sua senha?
+      <a routerLink="/redefinePassword">Redefinir Senha.</a>
+    </p>
+    <p>Ainda não tem uma conta?
+      <a routerLink="/companyCreate">Cadastre-se.</a>
+    </p>
+  </div>
+</div>

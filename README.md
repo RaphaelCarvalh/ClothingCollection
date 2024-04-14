@@ -75,19 +75,19 @@ bash Copy code ng serve Acesse a aplicação em seu navegador no endereço http:
 <h3>📷A seguir, algumas demonstrações das páginas do projeto ClothingCollection:</h3>
 <div align="left">
   <h4>Controle tudo de um só lugar, monitore e acesse as principais funionalidades do sistema, com tabelas interativas tenha tudo sempre a mão!</h4>
-  <img src="../readme/controle.png"height="400" width="720" alt="Último commit">
+  <img src="../ClothingCollection/controle.png"height="400" width="720" alt="Último commit">
 </div>
 <br>
 <div align="left"><br>
  <h4> Controle multinivel de usuarios e rotas de acesso, 
 tenha a máxima segurança na manipulação de suas informações.</h4>
-  <img src="../readme/login.png"height="400" width="420" alt="Linguagem mais utilizada"><br>
-    <img src="../readme/cadastro.png"height="400" width="420" alt="Linguagem mais utilizada">
+  <img src="../ClothingCollection/login.png"height="400" width="420" alt="Linguagem mais utilizada"><br>
+    <img src="../ClothingCollection/cadastro.png"height="400" width="420" alt="Linguagem mais utilizada">
 </div>
 <br>
 <div align="left">
  <h4> Tenha total controle da sua coleção e faça o que quiser com ela.</h4>
-  <img src="../readme/edicao.png" height="400" width="520" alt="ClothingCollection Logo"><br>
-    <img src="../readme/cadastroitem.png" height="400" width="720" alt="ClothingCollection Logo">
+  <img src="../ClothingCollection/readme/edicao.png" height="400" width="520" alt="ClothingCollection Logo"><br>
+    <img src="../ClothingCollection/readme/cadastroitem.png" height="400" width="720" alt="ClothingCollection Logo">
 </div><br>
 

@@ -1,0 +1,17 @@
+<div>
+  <div class="headerPage">
+    <h1 class="custom-heading">Ajuda</h1>
+    <button title="criar card de ajuda" type="button" routerLink="getHelpCreate" mat-raised-button color="primary">Criar Card de Ajuda</button>
+  </div>
+
+  <div class="container mat-elevation-z8">
+    <mat-card class="card mat-elevation-z8" *ngFor="let gethelp of listGetHelp" (click)="redirect(gethelp.id)">
+      <mat-card-header class="header">
+        <mat-card-title class="cardTitle" name="getHelpTitle">{{gethelp.title}}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p class="cardText" name="getHelpText">{{gethelp.text}}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
