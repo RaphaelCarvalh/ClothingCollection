@@ -33,18 +33,7 @@ A aplicação permite ao usuário:
 - ORM: Entity Framework Core
 - Ferramenta de Documentação: Swagger
 
-## Inicialização
 
-
-🚀 Instalação Clone o repositório em sua máquina local.
-
-1. Clone o repositório em sua máquina local.
-
-bash Copy code git clone https://github.com/seu-usuario/ClothingCollection.git Acesse o diretório do projeto.
-
-2. Acesse as dependência principal ClothingCollection e Instale as dependências do projeto.
-
-3. No terminal use o npm install.
 
 🎮 Utilização Execute o servidor de desenvolvimento.
 
